@@ -17,3 +17,25 @@
 
 
 
+## Dispaly
+
+**The interface of iOS:**
+
+<img src="Pictures\IMG_3780.PNG" alt="IMG_3780" style="zoom:25%;" /><img src="Pictures/IMG_3781.PNG" alt="IMG_3781" style="zoom:25%;" /><img src="Pictures/IMG_3782.PNG" alt="IMG_3782" style="zoom:25%;" /><img src="Pictures/IMG_3783.PNG" alt="IMG_3783" style="zoom:25%;" />
+
+
+
+**The interface of Android:**
+
+<img src="Pictures\QQ图片20220525201956.png" alt="QQ图片20220525201956" style="zoom: 25%;" /><img src="D:\fzy\AnotherMe\Pictures\QQ图片20220525202010.png" alt="QQ图片20220525202010" style="zoom:25%;" /><img src="Pictures/QQ图片20220525202018.png" alt="QQ图片20220525202010" style="zoom: 25%;" />
+
+
+
+Note: The interface shown above may not be up to date.
+
+
+
+
+
+
+
