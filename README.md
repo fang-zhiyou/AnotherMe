@@ -1,8 +1,8 @@
 # AnotherMe
 
-<img src="D:\fzy\Paper\Pictures\image-20220525163024165.png" alt="image-20220525163113839" style="zoom: 33%;" />
+<img src="\Pictures\image-20220525163024165.png" alt="image-20220525163113839" style="zoom: 33%;" />
 
-<img src="D:\fzy\Paper\Pictures\image-20220525163214124.png" alt="image-20220525163214124" style="zoom: 40%;" />
+<img src="\Pictures\image-20220525163214124.png" alt="image-20220525163214124" style="zoom: 40%;" />
 
 
 
