@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GPSLog" representedClassName="GPSLog" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="gpsLogs" inverseEntity="Profile"/>
+    </entity>
+    <entity name="POI" representedClassName="POI" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="pois" inverseEntity="Profile"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES" codeGenerationType="class">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isReal" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="gpsLogs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GPSLog" inverseName="profile" inverseEntity="GPSLog"/>
+        <relationship name="pois" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="POI" inverseName="profile" inverseEntity="POI"/>
+    </entity>
+    <elements>
+        <element name="GPSLog" positionX="-3753.098693847656" positionY="119.037109375" width="138.0526123046875" height="104"/>
+        <element name="POI" positionX="-3726.247619628906" positionY="327.9850463867188" width="128" height="104"/>
+        <element name="Profile" positionX="-3505.048400878906" positionY="193.1448364257812" width="128" height="118"/>
+    </elements>
+</model>

@@ -1,0 +1,6 @@
+platform :ios, '15.0'
+use_frameworks!
+
+target 'Browser' do
+    pod 'SwiftyJSON', '~> 4.0'
+end

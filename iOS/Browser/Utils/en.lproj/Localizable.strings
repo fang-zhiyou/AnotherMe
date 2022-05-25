@@ -1,0 +1,42 @@
+// Strings of Guidance:
+
+"Home" = "Home";
+"Settings" = "Settings";
+"Virtual Positioning" = "Virtual Positioning";
+"System Settings" = "System Settings";
+"Cache" = "Cache";
+"Off" = "Off";
+"On" = "On";
+"Set the number of virtual positions. When you send a request with location, the browser will pop up the corresponding number of interfaces." = "Set the number of virtual positions. When you send a request with location, the browser will pop up the corresponding number of interfaces.";
+"Enter website name" = "Enter website name";
+"Import Model" = "Import Model";
+"Show Track" = "Show Track";
+"Export Track File" = "Export Track File";
+"Browser" = "Browser";
+"Mapping Settings" = "Mapping Settings";
+"Choose Anchors" = "Choose Anchors";
+"Refresh Page" = "Refresh Page";
+"Select File" = "Select File";
+"Stay Points" = "Stay Points";
+"Calculate Stay Points" = "Calculate Stay Points";
+"Clear GPS Logs" = "Clear GPS Logs";
+"Clear Virtual Profiles" = "Clear Virtual Profiles";
+"Clear All Data" = "Clear All Data";
+"All GPS Logs will be Deleted" = "All GPS Logs will be Deleted";
+"All Virtual Profiles will be Deleted" = "All Virtual Profiles will be Deleted";
+"All Data will be Deleted" = "All Data will be Deleted";
+"You cannot undo this operation." = "You cannot undo this operation.";
+"Delete" = "Delete";
+"Mapping" = "Mapping";
+"Real" = "Real";
+"Virtual" = "Virtual";
+"File selected" = "File selected";
+"No file selected" = "No file selected";
+
+
+// Name of cities:
+
+"Chengdu" = "Chengdu";
+"Beijing" = "Beijing";
+"Shanghai" = "Shanghai";
+"Xiamen" = "Xiamen";
