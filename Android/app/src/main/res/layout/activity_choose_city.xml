@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseCityActivity">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:textSize="20pt"
+         android:gravity="center"
+
+         android:text="选择城市"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:textSize="10pt"
+         android:gravity="center"
+         android:id="@+id/leastCityNum"
+
+
+         />
+     <HorizontalScrollView
+         android:layout_width="match_parent"
+         android:id="@+id/hsv2"
+         android:layout_height="500dp">
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+
+         android:id="@+id/linearChooseCity"
+         android:orientation="vertical">
+
+     </FrameLayout>
+     </HorizontalScrollView>
+     <Button
+         android:layout_width="100dp"
+         android:layout_height="45dp"
+         android:id="@+id/quitcity"
+         android:layout_gravity="center"
+         android:text="确定"
+         />
+
+
+ </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
