@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BrowerActivity">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="5pt"
+            android:layout_marginTop="2pt"
+            android:layout_width="14pt"
+            android:layout_height="14pt"
+
+            android:background="@drawable/ic_wv_back"
+            android:id="@+id/wv_back"
+
+            ></Button>
+        <Button
+
+            android:layout_width="14pt"
+            android:layout_height="14pt"
+            android:layout_marginTop="2pt"
+
+            android:background="@drawable/ic_wv_foreward"
+            android:id="@+id/wv_foreward"
+
+            ></Button>
+        <EditText
+            android:id="@+id/text_url_0"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_bg"
+            android:singleLine="true"
+            android:text="url"
+
+            />
+        <!--android:autofillHints=""-->
+        <Button
+
+            android:layout_width="15pt"
+            android:layout_height="15pt"
+            android:layout_marginTop="2pt"
+
+            android:background="@drawable/ic_wv_flash"
+            android:id="@+id/wv_flash"
+
+            ></Button>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+
+        android:layout_weight="1"
+        android:layout_height="0dp"
+
+        android:id="@+id/brower_activity_framelayout_webviewfather"
+        tools:ignore="WebViewLayout">
+
+        <WebView
+            android:id="@+id/webview_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </FrameLayout>
+
+    <!--        <HorizontalScrollView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:id="@+id/hsv"-->
+    <!--           -->
+    <!--            android:layout_height="100dp">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+
+<!--        android:layout_height="100dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:id="@+id/l">-->
+
+<!--    </LinearLayout>-->
+
+
+
+    <!--        </HorizontalScrollView>-->
+
+
+
+</LinearLayout>
