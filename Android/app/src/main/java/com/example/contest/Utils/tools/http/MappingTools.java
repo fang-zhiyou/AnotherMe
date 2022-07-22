@@ -129,7 +129,7 @@ public class MappingTools {
         double splong=sp.longitude;
         double splan=sp.latitude;
 
-        String url = "http://restapi.amap.com/v3/place/around?key=9c5b91e0113ea3e626682c1b891490fc&keywords=" + typeGbk +
+        String url = "http://restapi.amap.com/v3/place/around?key=xxx"+"&keywords=" + typeGbk +
                 "&location="+splong+","+splan+"&children=1&offset=5&page=1&extensions=base";
         Response r=HttpRequest.get(url);
 
@@ -157,7 +157,7 @@ public class MappingTools {
         double longitude=sp.longitude;
         double lan=sp.latitude;
         //https://restapi.amap.com/v3/geocode/regeo?output=xml&location=116.310003,39.991957&key=<用户的key>&radius=1000&extensions=all
-        String url="https://restapi.amap.com/v3/geocode/regeo?output=json&location="+longitude+","+lan+"&key=9c5b91e0113ea3e626682c1b891490fc&radius=200&extensions=all";
+        String url="https://restapi.amap.com/v3/geocode/regeo?output=json&location="+longitude+","+lan+"&key=xxx&radius=200&extensions=all";
         Response r=HttpRequest.get(url);
 
                 //Log.e("http", "msg = " + msg);
@@ -182,8 +182,8 @@ public class MappingTools {
 
     public static void getAnchorPoint(String city, String poi){
         //测试http
-        String s="https://restapi.amap.com/v3/place/text?key=9c5b91e0113ea3e626682c1b891490fc&keywords=&types="+poi+"&city="+city+"&children=1&offset=20&page=1&extensions=all";
- //"https://restapi.amap.com/v3/place/text?key=9c5b91e0113ea3e626682c1b891490fc&keywords=&types=141201&city=北京&children=1&offset=20&page=1&extensions=all"
+        String s="https://restapi.amap.com/v3/place/text?key=xxx&keywords=&types="+poi+"&city="+city+"&children=1&offset=20&page=1&extensions=all";
+ //"https://restapi.amap.com/v3/place/text?key=xxx&keywords=&types=141201&city=北京&children=1&offset=20&page=1&extensions=all"
 
         OkHttpUtils.get(s,new OkHttpCallback() {
             @Override
@@ -215,7 +215,7 @@ public class MappingTools {
         //杭州120.1988,30.2716
         //南京118.8497,32.0203
         //广州113.3424,23.1285
-        String url = "http://restapi.amap.com/v3/place/around?key=9c5b91e0113ea3e626682c1b891490fc&keywords=" + typeGbk +
+        String url = "http://restapi.amap.com/v3/place/around?key=xxx&keywords=" + typeGbk +
                 "&location="+splong+","+splan+"&children=1&offset=5&page=1&extensions=base";
 
         OkHttpUtils.get(url, new OkHttpCallback() {
@@ -251,7 +251,7 @@ public class MappingTools {
         double longitude=sp.longitude;
         double lan=sp.latitude;
         //https://restapi.amap.com/v3/geocode/regeo?output=xml&location=116.310003,39.991957&key=<用户的key>&radius=1000&extensions=all
-        String s="https://restapi.amap.com/v3/geocode/regeo?output=json&location="+longitude+","+lan+"&key=9c5b91e0113ea3e626682c1b891490fc&radius=200&extensions=all";
+        String s="https://restapi.amap.com/v3/geocode/regeo?output=json&location="+longitude+","+lan+"&key=xxx&radius=200&extensions=all";
 
         OkHttpUtils.get(s,new OkHttpCallback() {
             @Override
