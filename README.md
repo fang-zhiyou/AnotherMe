@@ -35,9 +35,9 @@ Note: The interface shown above may not be up to date.
 
 Introduction：
 
-1. The contents of folder geolife_dataset folder are trajectory data from 10 users selected from geolife dataset.
+1. The contents of folder geolife_dataset folder are trajectory data from 6 users selected from geolife dataset.
 
-2. The contents of folder VTGA folder are trajectory data from 6 users selected from T-driver dataset.
+2. The contents of folder T-drive_dataset folder are trajectory data from 6 users selected from T-driver dataset.
 
 3. In VTGAs folder, the gen_virtual_traj.py and public_api.py show the virtual trajectory generation algorithm of AnotherMe system. To facilitate testing by others, we will separate the algorithm as a standalone component.
 
