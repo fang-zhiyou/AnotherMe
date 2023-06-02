@@ -1,6 +1,6 @@
 # AnotherMe
 
-<img src="Pictures/image-20220525163024165.png" style="zoom: 33%;" />
+<img src="Pictures/c3_fig4.png" style="zoom: 33%;" />
 
 <img src="Pictures/image-20220525163214124.png" alt="image-20220525163214124" style="zoom: 40%;" />
 
