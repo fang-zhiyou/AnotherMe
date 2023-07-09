@@ -43,6 +43,9 @@ Introduction：
 
 4. TrajectoryExp.zip contains the virtual trajectory generation algorithm, such as MN, MLN and ADTGA, and the data mining algorithm, such as LSTM, TSHN and CNN.
 
+5. TrajectoryExp1.zip contains the virtual trajectory generation algorithm, such as RcDT and GAN.
+
+
 
 
 
